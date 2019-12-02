@@ -73,7 +73,7 @@ this.setState({noteText: ''})
 deleteNote(key){
     this.state.noteArray.splice(key, 1)
     this.setState({noteArray: this.state.noteArray})
-}
+}   
 }
 
 const styles = StyleSheet.create({
@@ -81,11 +81,11 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     header: {
-        backgroundColor: '#E91E63',
+        backgroundColor: '#ff6b6b',
         alignItems: 'center',
         justifyContent: 'center',
         borderBottomWidth: 10,
-        borderBottomColor: 'black',
+        borderBottomColor: '#41d6e0',
     },
     headText: {
         color: 'white',
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
         alignSelf: 'stretch',
         color: '#fff',
         padding: 20,
-        backgroundColor: '#252525',
+        backgroundColor: '#ff6b6b',
         borderTopWidth: 2,
         borderTopColor: '#ededed'
     },
@@ -116,9 +116,11 @@ const styles = StyleSheet.create({
         zIndex: 11,
         right: 20,
         bottom: 90,
-        backgroundColor: '#E91E63',
-        width: 90,
-        height: 90,
+        backgroundColor: '#41d6e0',
+        width: 60,
+        height: 60,
+        borderWidth:10,
+        borderColor:'#ff6b6b',
         borderRadius: 50,
         alignItems: 'center',
         justifyContent: 'center',
@@ -126,7 +128,7 @@ const styles = StyleSheet.create({
     },
     addButtonText: {
         color: '#fff',
-        fontSize: 24,
+        fontSize: 25,
     }
 })
     ;

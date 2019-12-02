@@ -37,26 +37,28 @@ const styles = StyleSheet.create({
         position:'relative',
         padding:20,
         paddingRight:100,
-        borderBottomWidth:2,
-        borderBottomColor:'#ededed'
+        borderBottomWidth:1,
+        borderBottomColor:'#cfd3d4'
     },
 noteText:{
     paddingLeft:20,
     borderLeftWidth:10,
-    borderLeftColor:'#E91E63',
+    borderLeftColor:'#41d6e0',
 },
 noteDelete:{
     position:'absolute',
     justifyContent:'center',
     alignItems:'center',
-    backgroundColor:'#2980b9',
+    backgroundColor:'#ff6b6b',
     padding:10,
+    borderRadius:10,
     top:10,
     bottom:10,
     right:10
 },
 noteDeleteText:{
-    color:'white'
+    color:'white',
+    fontWeight:'bold'
 }
                    
                 })
